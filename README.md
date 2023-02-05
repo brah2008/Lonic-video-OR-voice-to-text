@@ -1,4 +1,27 @@
 # Lonic-video-OR-voice-to-text
+**To create a mobile application for converting videos or voice to text using Ionic, you can follow these steps:**
+
+**1** Set up an Ionic project: You can use the Ionic CLI to create a new Ionic project, set the desired parameters and select the desired template.
+
+**2** Choose a plugin for audio/video recording: You can choose a plugin such as Cordova Media Plugin or Ionic Native Media Capture to allow your app to record audio or video.
+
+**3** Choose a plugin for speech-to-text conversion: You can use a plugin such as Ionic Native Speech Recognition or Google Cloud Speech-to-Text to perform speech-to-text conversion.
+
+**4** Implement the functionality: You can implement the functionality to record audio/video and convert it to text. You can also display the converted text to the user.
+
+**5** Test the app: Finally, test the app on a device or an emulator to make sure that it works as expected.
+
+**6** Publish the app: Once you are satisfied with the results, you can publish the app to the desired app stores such as the Apple App Store or the Google Play Store.
+
+**7** It's important to consider the specific requirements and the performance of the plugins before choosing them for your project.
+
+
+
+
+
+
+
+
 Lonic creation application mobile android to do (video or voice) to text with Ionic
 
 To create a mobile application for Android that converts videos or voice to text using Ionic, you could follow these steps:
