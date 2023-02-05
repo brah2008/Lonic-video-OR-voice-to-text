@@ -28,7 +28,7 @@ This is a high-level overview of the steps involved in creating a mobile applica
 
 
 
--- Here's a code snippet that demonstrates how you can convert the recorded audio to text using the Google Cloud Speech-to-Text API:
+#  Here's a code snippet that demonstrates how you can convert the recorded audio to text using the Google Cloud Speech-to-Text API:
 ```typescript
 
 
@@ -81,7 +81,7 @@ This code is just a starting point, and you will need to modify it to fit your s
 
 
 
--- Here's a code snippet that demonstrates how you can display the transcribed text in the UI of your Ionic application:
+#  Here's a code snippet that demonstrates how you can display the transcribed text in the UI of your Ionic application:
 
 
 ```php
@@ -108,7 +108,7 @@ This code is just a starting point, and you will need to modify it to fit your s
 
 
 
--- Here's a code snippet that demonstrates how you can record video or voice using the Ionic Native Media plugin:
+#  Here's a code snippet that demonstrates how you can record video or voice using the Ionic Native Media plugin:
 
 
 
@@ -144,7 +144,7 @@ This code demonstrates how you can use the Ionic Native Media plugin to record a
 This code is just a starting point, and you will need to modify it to fit your specific requirements and implementation details.
 
 
--- Here's a code snippet that demonstrates how you can install and import the required dependencies in your Ionic application:
+#  Here's a code snippet that demonstrates how you can install and import the required dependencies in your Ionic application:
 
 ```typescript
 import { NgModule } from '@angular/core';
@@ -219,7 +219,7 @@ This code demonstrates how you can send the recorded audio or video file to the 
 This code is just a starting point, and you will need to modify it to fit your specific requirements and implementation details. Don't forget to replace **YOUR_API_KEY** with your own API key for the Google Cloud Speech-to-Text API.
 
 
--- Here's a code snippet that demonstrates how you can display the transcribed text in your Ionic application:
+#  Here's a code snippet that demonstrates how you can display the transcribed text in your Ionic application:
 
 ```php
 <ion-header>
@@ -248,7 +248,7 @@ This code demonstrates how you can display the transcribed text in your Ionic ap
 This code is just a starting point, and you will need to modify it to fit your specific requirements and implementation details.
 
 
--- Here are some additional steps that you may need to take in order to get this code working in your Ionic application:
+#  Here are some additional steps that you may need to take in order to get this code working in your Ionic application:
 
 1- Install the required dependencies:
 
@@ -327,7 +327,7 @@ export class HomePage {
 
 ```
 
--- Here is an example of how you could integrate the transcribed text into your Ionic application.
+#  Here is an example of how you could integrate the transcribed text into your Ionic application.
 
 1- In your home.page.html file, you can display the transcription as follows:
 
@@ -417,7 +417,7 @@ export class HomePage {
 With these changes, your application should display the transcribed text after recording a video or voice message.
 
 
--- The code I have provided previously is a high-level overview of how you can transcribe speech to text using the Google Cloud Speech-to-Text API. However, I can provide you with more detailed information and examples.
+#  The code I have provided previously is a high-level overview of how you can transcribe speech to text using the Google Cloud Speech-to-Text API. However, I can provide you with more detailed information and examples.
 
 Here is a more in-depth example of the **transcribe** function in the **home.page.ts** file:
 
@@ -458,7 +458,7 @@ This example is more thorough in terms of error handling and ensures that the re
 Additionally, I recommend that you replace **'YOUR_API_KEY'** with your own Google Cloud API key. You can obtain a key by following the instructions in the Google Cloud Speech-to-Text API documentation.
 
 
--- To add a UI for recording and playing audio in your Ionic app, you can create a new component that contains buttons for starting and stopping the recording, and for playing the recorded audio.
+#  To add a UI for recording and playing audio in your Ionic app, you can create a new component that contains buttons for starting and stopping the recording, and for playing the recorded audio.
 
 Here is an example of a component that you can use for this purpose:
 ```kotlin
@@ -533,7 +533,7 @@ You can integrate this component into your **home.page.html** file by adding the
 This code adds the **AudioRecorderComponent** to the **home** page. You can customize the appearance and functionality of the component as needed.
 
 
--- To transcribe the audio to text, you will need to use an automatic speech recognition (ASR) service. There are several third-party ASR services available, such as Google Cloud Speech-to-Text, Amazon Transcribe, or IBM Watson Speech to Text.
+#  To transcribe the audio to text, you will need to use an automatic speech recognition (ASR) service. There are several third-party ASR services available, such as Google Cloud Speech-to-Text, Amazon Transcribe, or IBM Watson Speech to Text.
 
 Here's an example of how you can use the Google Cloud Speech-to-Text API to transcribe the audio:
 
